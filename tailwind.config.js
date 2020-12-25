@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     enabled: process.env.NODE_ENV === 'production',
-    content: ['./index.html', './src/**/*.vue', './src/**/*.js', './src/**/*.ts']
+    content: ['./index.html', './src/**/*.vue', './src/**/*.js', './src/**/*.ts'],
   },
   theme: {},
   variants: {
@@ -9,11 +9,11 @@ module.exports = {
     backgroundColor: ['dark', 'hover', 'disabled'],
     borderColor: ['dark', 'active', 'focus', 'disabled'],
     textColor: ['dark', 'hover', 'active', 'disabled'],
-    opacity: ['dark', 'hover', 'active', 'focus', 'disabled']
+    opacity: ['dark', 'hover', 'active', 'focus', 'disabled'],
   },
   future: {
     purgeLayersByDefault: true,
-    removeDeprecatedGapUtilities: true
+    removeDeprecatedGapUtilities: true,
   },
   experimental: {
     darkModeVariant: true,
@@ -21,7 +21,7 @@ module.exports = {
     uniformColorPalette: true,
     extendedSpacingScale: true,
     defaultLineHeights: true,
-    extendedFontSizeScale: true
+    extendedFontSizeScale: true,
   },
-  dark: 'class'
-}
+  dark: 'class',
+};
